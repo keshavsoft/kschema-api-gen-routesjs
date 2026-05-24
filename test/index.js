@@ -4,7 +4,7 @@ const startFunc = async () => {
     const fn = await index();
 
     await fn({
-        folderName: "folder1",
+        folderName: "V1",
         toPath: process.cwd(),
         showLog: false,
         isAnnounce: false

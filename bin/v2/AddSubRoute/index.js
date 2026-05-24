@@ -8,6 +8,7 @@ import resolveFolderName from "./Helpers/steps/resolveFolderName.js";
 
 export default ({ folderName = "", argsAsIs, toPath, isAnnounce = true, checkBeforeCreate = true }) => {
     const localToPath = toPath;
+
     const resolvedFolderName = resolveFolderName({
         name: folderName
     });
